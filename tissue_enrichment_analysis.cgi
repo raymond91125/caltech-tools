@@ -131,7 +131,7 @@ sub anatomySoba {
       my $tempOutFile  = '/tmp/hyperGeo/hyperGeo' . $time . '.txt';
       my $tempOutUrl   = '../data/hyperGeo/hyperGeo' . $time . '.txt';
       open (OUT, ">$tempOutFile") or die "Cannot open $tempOutFile : $!";
-      my $tempImageUrl = '../data/hyperGeo/hyperGeo' . $time . '.png';
+      my $tempImageUrl = '../data/hyperGeo/hyperGeo' . $time . '.svg';
       open (TMP, ">$tempfile") or die "Cannot open $tempfile : $!";
 #       print TMP qq(gene,reads\n);
       foreach my $gene (@goodGene) { print TMP qq($gene\n); }
